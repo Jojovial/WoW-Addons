@@ -1,6 +1,6 @@
 
 SLASH_HELLO1 = "/helloworld"
-SLASH_HELLO2 = "/hellow"
+SLASH_HELLO2 = "/hello"
 
 
 -- /helloworld Paul
