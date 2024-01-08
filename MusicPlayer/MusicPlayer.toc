@@ -1,0 +1,7 @@
+## Interface: 100200
+## Title: MusicPlayer
+## Notes: Play sounds and music inside of the game.
+## Author: JoJo
+## Version: 0.0.1
+
+MusicPlayer.lua
