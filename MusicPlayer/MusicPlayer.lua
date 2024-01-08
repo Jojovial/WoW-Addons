@@ -24,6 +24,11 @@ local sounds = {
         ["sound"] = "Interface\\AddOns\\MusicPlayer\\Sounds\\custom.mp3",
         ["description"] = "Custom sound!",
         ["type"] = soundType.CUSTOM
+    },
+    ["popipo"] = {
+        ["sound"] = "Interface\\AddOns\\MusicPlayer\\Sounds\\popipo.mp3",
+        ["description"] = "Eat your veggies juiced!",
+        ["type"] = soundType.CUSTOM
     }
 }
 
