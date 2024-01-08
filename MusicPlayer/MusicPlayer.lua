@@ -41,8 +41,23 @@ local function displaySoundList()
     print("--------------------")
 end
 
-local function playSoundHandler()
-    displaySoundList()
+local function playTrack(track)
+    print(track.description)
+end
+
+local function playSoundHandler(trackId)
+
+    if(string.len(trackId) > 0) then
+        local matchesKnownTrack = sounds[trackId] ~= nil
+
+        if(matchesKnownTrack) then
+            local track = sounds[trackId]
+            playTrack(track)
+        end
+    else
+        displaySoundList()
+
+    end
 end
 
 local function stopSoundHandler()
